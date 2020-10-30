@@ -6,6 +6,7 @@
 - [ ] Markdown support
 - [ ] Emoji support
 - [ ] Notifications in menubar
+- [ ] Tags
 
 ## Resources
 - https://github.com/sindresorhus/refined-github/tree/master/source
