@@ -7,6 +7,7 @@
 - [ ] Emoji support
 - [ ] Notifications in menubar
 - [ ] Tags
+- [ ] CMD + Enter submit
 
 ## Resources
 - https://github.com/sindresorhus/refined-github/tree/master/source
