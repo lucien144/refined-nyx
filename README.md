@@ -3,11 +3,11 @@
 ## Features
 
 - [ ] Load more ajax
-- [ ] Markdown support
+- [x] Markdown support
 - [ ] Emoji support
-- [ ] Notifications in menubar
+- [x] Notifications in menubar
 - [ ] Tags
-- [ ] CMD + Enter submit
+- [x] CMD + Enter submit
 
 ## Resources
 - https://github.com/sindresorhus/refined-github/tree/master/source
