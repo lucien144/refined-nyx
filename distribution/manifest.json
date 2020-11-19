@@ -12,6 +12,7 @@
 		}
 	},
 	"permissions": [
+		"storage",
 		"activeTab",
 		"https://nyx.cz*",
 		"https://www.nyx.cz*"
@@ -24,10 +25,7 @@
 				"https://nyx.cz/*"
             ],
             "js": [
-				"fyx.js"
-			],
-            "css": [
-				"fyx.css"
+				"build/bundle.js"
 			]
         }
 	]

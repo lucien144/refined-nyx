@@ -1,0 +1,14 @@
+{
+  "extends": "@sindresorhus/tsconfig",
+  "compilerOptions": {
+    "target": "es2020",
+    "declaration": false,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./src/**/*"
+  ]
+}

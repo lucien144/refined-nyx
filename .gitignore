@@ -1,0 +1,4 @@
+.cache/
+
+test/web-ext-profile/
+distribution/build/
