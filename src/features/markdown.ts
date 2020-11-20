@@ -1,6 +1,10 @@
 import cache from 'webext-storage-cache';
 
-const marked = require('marked').setOptions({ breaks: true });
+const md = require('markdown-it')({
+    html: true,
+    linkify: false,
+    breaks: true
+})
 
 export default (() => {
     document?.documentElement?.classList.add('fyx__markdown');
@@ -28,7 +32,7 @@ export default (() => {
             message.setAttribute('id', id);
             message.setAttribute('name', name);
 
-            const markdown = marked(textarea.value).replaceAll('<p>', '').replaceAll('</p>', "\n");
+            const markdown = md.render(textarea.value).replaceAll('<p>', '').replaceAll('</p>', "\n");
             message.setAttribute('value', markdown);
             form.appendChild(message);
 
