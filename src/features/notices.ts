@@ -1,3 +1,5 @@
+import './notices.scss';
+
 export default (function() {
 // Notices
     const notifications: HTMLAnchorElement | null = document.querySelector('#new_notifications');

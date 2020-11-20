@@ -1,3 +1,4 @@
+import './markdown.scss';
 import cache from 'webext-storage-cache';
 
 const md = require('markdown-it')({

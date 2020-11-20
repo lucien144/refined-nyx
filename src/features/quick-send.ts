@@ -1,3 +1,5 @@
+import './quick-send.scss';
+
 export default (function () {
     const textarea: HTMLTextAreaElement | null = document.querySelector('#message_box');
     const sendBtn = textarea?.form?.querySelector('.input-submit[name=send]') as HTMLButtonElement;
