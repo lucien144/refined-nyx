@@ -4,12 +4,12 @@
 
 ## Features
 
-- [ ] Load more ajax
 - [x] Markdown support
 - [ ] Emoji support
 - [x] Notifications in menubar
-- [ ] Tags
+- [x] Tags
 - [x] CMD + Enter submit
+- [ ] Load more ajax
 
 ## Dev
 
