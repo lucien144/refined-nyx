@@ -10,6 +10,13 @@
         display: inline-block;
         width: auto;
     }
+
+    &:not(.reminders) {
+        .icon-entypo.icon-list,
+        .count {
+            color: white;
+        }
+    }
 }
 
 .input-submit {
