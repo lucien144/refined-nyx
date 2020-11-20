@@ -9,6 +9,8 @@
 - [x] Notifications in menubar
 - [x] Tags
 - [x] CMD + Enter submit
+- [x] Context menu resize
+- [ ] Context menu - add user ID
 - [ ] Load more ajax
 
 ## Dev
