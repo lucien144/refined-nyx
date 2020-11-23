@@ -1,6 +1,6 @@
 # Refined Nyx.cz
 
-> Chrome/Firefox extension for Nyx.cz
+> Browser extension that simplifies the Nyx.cz interface and adds useful features.
 
 ## Features
 
