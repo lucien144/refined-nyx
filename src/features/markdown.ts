@@ -33,7 +33,11 @@ export default (() => {
             message.setAttribute('id', id);
             message.setAttribute('name', name);
 
-            const markdown = md.render(textarea.value).replaceAll('<p>', '').replaceAll('</p>', "\n");
+            const markdown = md
+                .render(textarea.value)
+                .replaceAll('<p>', '')
+                .replaceAll('</p>', "\n")
+                .trim();
             message.setAttribute('value', markdown);
             form.appendChild(message);
 
