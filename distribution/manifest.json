@@ -19,7 +19,7 @@
 	],
 	"content_scripts": [
 		{
-			"run_at": "document_end",
+			"run_at": "document_start",
 			"matches": [
                 "https://www.nyx.cz/*",
 				"https://nyx.cz/*"
